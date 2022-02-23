@@ -35,3 +35,26 @@ NSURLSession.getSharedSession().downloadTaskWithURL(urlField.getText()).ready(ta
         });
     });
 ----
+
+== Installation
+
+Clone and install the project:
+
+[source,listing]
+----
+git clone https://github.com/shannah/ios-native-apis
+cd ios-native-apis
+mvn install
+----
+
+Then add maven dependency to your common/pom.xml file:
+
+[source,xml]
+----
+<dependency>
+    <groupid>com.codenameone</groupid>
+    <artifactId>ios-native-apis-lib</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <type>pom</type>
+</dependency>
+----
