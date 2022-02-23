@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/codenameone-maven-manual.iml" filepath="$PROJECT_DIR$/.idea/codenameone-maven-manual.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/ios-native-apis-android.iml" filepath="$PROJECT_DIR$/android/ios-native-apis-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/ios-native-apis-common.iml" filepath="$PROJECT_DIR$/common/ios-native-apis-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ios/ios-native-apis-ios.iml" filepath="$PROJECT_DIR$/ios/ios-native-apis-ios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javascript/ios-native-apis-javascript.iml" filepath="$PROJECT_DIR$/javascript/ios-native-apis-javascript.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javase/ios-native-apis-javase.iml" filepath="$PROJECT_DIR$/javase/ios-native-apis-javase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/ios-native-apis-lib.iml" filepath="$PROJECT_DIR$/lib/ios-native-apis-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tests/ios-native-apis-tests.iml" filepath="$PROJECT_DIR$/tests/ios-native-apis-tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tests/common/ios-native-apis-tests-common.iml" filepath="$PROJECT_DIR$/tests/common/ios-native-apis-tests-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tests/javase/ios-native-apis-tests-javase.iml" filepath="$PROJECT_DIR$/tests/javase/ios-native-apis-tests-javase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/win/ios-native-apis-win.iml" filepath="$PROJECT_DIR$/win/ios-native-apis-win.iml" />
+    </modules>
+  </component>
+</project>

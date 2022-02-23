@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ios-native-apis-javase" />
+        <module name="ios-native-apis-tests-common" />
+        <module name="ios-native-apis-android" />
+        <module name="ios-native-apis-common" />
+        <module name="ios-native-apis-javascript" />
+        <module name="ios-native-apis-ios" />
+        <module name="ios-native-apis-win" />
+        <module name="ios-native-apis-tests-javase" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="codenameone-maven-manual" target="1.8" />
+      <module name="ios-native-apis-android" target="1.8" />
+      <module name="ios-native-apis-common" target="8" />
+      <module name="ios-native-apis-ios" target="1.8" />
+      <module name="ios-native-apis-javascript" target="1.8" />
+      <module name="ios-native-apis-javase" target="1.8" />
+      <module name="ios-native-apis-lib" target="1.8" />
+      <module name="ios-native-apis-tests" target="8" />
+      <module name="ios-native-apis-tests-common" target="8" />
+      <module name="ios-native-apis-tests-javase" target="1.8" />
+      <module name="ios-native-apis-win" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

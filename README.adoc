@@ -1,0 +1,37 @@
+= iOS Native APIs for Codename One
+
+This library is aimed at providing access to selected native iOS APIs in https://www.codenameone.com[Codename One] apps.  Classes in this library will also provide emulation on other platforms so that they can be used in a cross-platform manner.  APIs will closely map to the underlying iOS API when running on iOS.  When running on other platforms, it will use cross-platform APIs under the hood.
+
+== Status
+
+This project is at an early stage, and only supports one class.  More will be added.
+
+== Classes Supported
+
+. NSURLSession
+
+== Example Code
+
+[source,java]
+----
+NSURLSession.getSharedSession().downloadTaskWithURL(urlField.getText()).ready(task-> {
+        File location = task.getLocation();
+        try {
+            String contents = Util.readToString(location);
+            callSerially(()->{
+                textArea.setText(contents);
+                textArea.getParent().revalidateWithAnimationSafety();
+            });
+        } catch (Exception ex) {
+            callSerially(()->{
+                textArea.setText(ex.getMessage());
+                textArea.getParent().revalidateWithAnimationSafety();
+            });
+        }
+    }).except(ex->{
+        callSerially(()->{
+            textArea.setText(ex.getMessage());
+            textArea.getParent();
+        });
+    });
+----
