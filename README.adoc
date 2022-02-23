@@ -58,3 +58,7 @@ Then add maven dependency to your common/pom.xml file:
     <type>pom</type>
 </dependency>
 ----
+
+== Test App
+
+https://github.com/shannah/ios-native-apis-test
